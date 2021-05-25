@@ -11,6 +11,8 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
     TextView tvQ1;
     Button btnRevealQ1;
+    TextView tvQ2;
+    Button btnRevealQ2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tvQ1=findViewById(R.id.textViewQ1);
+        tvQ2=findViewById(R.id.textViewQ2);
         btnRevealQ1=findViewById(R.id.buttonRevealQ1);
+        btnRevealQ2=findViewById(R.id.buttonRevealQ2);
 
         btnRevealQ1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,5 +32,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnRevealQ2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this, AnswerActivity2.class);
+                intent.putExtra("Question2", "Q2");
+                startActivity(intent);
+            }
+        });
+
     }
 }
