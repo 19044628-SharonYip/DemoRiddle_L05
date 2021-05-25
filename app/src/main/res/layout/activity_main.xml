@@ -19,14 +19,14 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/textViewQ1" />
+            android:text="@string/q1" />
 
         <Button
             android:id="@+id/buttonRevealQ1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/buttonRevealQ1" />
+            android:text="@string/reveal" />
 
     </LinearLayout>
 
@@ -41,13 +41,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/textViewQ2" />
+            android:text="@string/q2" />
 
         <Button
             android:id="@+id/buttonRevealQ2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/buttonRevealQ2" />
+            android:text="@string/reveal" />
     </LinearLayout>
 </LinearLayout>

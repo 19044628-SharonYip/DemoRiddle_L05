@@ -1,9 +1,8 @@
 <resources>
     <string name="app_name">Demo Riddle_L05</string>
-    <string name="textViewQ1">
+    <string name="q1">
         Question 1 \n This word has the same pronunciation even after removing 4 letters from it.
     </string>
-    <string name="buttonRevealQ1">REVEAL</string>
-    <string name="buttonRevealQ2">REVEAL</string>
-    <string name="textViewQ2">Question 2 \n How do you make 1 disappear?</string>
+    <string name="reveal">REVEAL</string>
+    <string name="q2">Question 2 \n How do you make 1 disappear?</string>
 </resources>
