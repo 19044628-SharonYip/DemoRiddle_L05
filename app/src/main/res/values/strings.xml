@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Demo Riddle_L05</string>
+    <string name="textViewQ1">Helloooo Worlldddd</string>
+    <string name="buttonRevealQ1">REVEAL</string>
+    <string name="buttonRevealQ2">REVEAL</string>
+    <string name="textViewQ2">haloooooooo</string>
 </resources>
